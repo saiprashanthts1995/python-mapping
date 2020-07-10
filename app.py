@@ -1,11 +1,12 @@
 import argparse
-from utils import read_config
+from utils import read_source_file, read_mapping_document, udf_exception, udf_time
 
 
+@udf_exception
+@udf_time
 def main(environment, name_of_file):
-
-    config_details = read_config(environment, name_of_file)
-    print(config_details)
+    data = read_source_file(environment, name_of_file)
+    print(data)
 
 
 

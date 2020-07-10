@@ -3,26 +3,32 @@
   {
     "IRIS":
     {
-      "SRC_FILE_NAME" : "iris.csv",
-      "Mapping file name" : "mapping_iris.xlsx"
+      "SRC_FILE_NAME": "iris.csv",
+      "FILE_DELIMITER": ",",
+      "MAPPING_FILE_NAME": "mapping_iris.xlsx",
+      "MAPPING_RANGE_COLUMNS": "C:J",
+      "MAPPING_SKIP_ROWS": 3
     },
     "EMPLOYEE":
     {
-      "SRC_FILE_NAME" : "employee.csv",
-      "Mapping file name" : "mapping_employee.xlsx"
+      "SRC_FILE_NAME": "employee.csv",
+      "MAPPING_FILE_NAME": "mapping_employee.xlsx"
     }
   },
     "QA":
   {
     "IRIS":
     {
-      "SRC_FILE_NAME" : "iris.csv",
-      "Mapping file name" : "mapping_iris.xlsx"
+      "SRC_FILE_NAME": "iris.csv",
+      "FILE_DELIMITER": ",",
+      "MAPPING_FILE_NAME": "mapping_iris.xlsx",
+      "MAPPING_RANGE_COLUMNS": "C:J",
+      "MAPPING_SKIP_ROWS": 3
     },
     "EMPLOYEE":
     {
-      "SRC_FILE_NAME" : "employee.csv",
-      "Mapping file name" : "mapping_employee.xlsx"
+      "SRC_FILE_NAME": "employee.csv",
+      "MAPPING_FILE_NAME": "mapping_employee.xlsx"
     }
   }
 }
