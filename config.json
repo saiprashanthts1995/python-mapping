@@ -1,0 +1,28 @@
+{
+  "DEV":
+  {
+    "IRIS":
+    {
+      "SRC_FILE_NAME" : "iris.csv",
+      "Mapping file name" : "mapping_iris.xlsx"
+    },
+    "EMPLOYEE":
+    {
+      "SRC_FILE_NAME" : "employee.csv",
+      "Mapping file name" : "mapping_employee.xlsx"
+    }
+  },
+    "QA":
+  {
+    "IRIS":
+    {
+      "SRC_FILE_NAME" : "iris.csv",
+      "Mapping file name" : "mapping_iris.xlsx"
+    },
+    "EMPLOYEE":
+    {
+      "SRC_FILE_NAME" : "employee.csv",
+      "Mapping file name" : "mapping_employee.xlsx"
+    }
+  }
+}
